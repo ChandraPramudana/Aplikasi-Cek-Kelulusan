@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:id="@+id/textViewJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="App Cek Kelulusan MataKuliah"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- Input Nama -->
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama" />
+
+    <!-- Input NIM -->
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIM"
+        android:inputType="number" />
+
+    <!-- Input Nilai -->
+    <EditText
+        android:id="@+id/editTextNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nilai (1-100)"
+        android:inputType="number" />
+
+    <!-- Tombol Cek Kelulusan -->
+    <Button
+        android:id="@+id/buttonCekKelulusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Kelulusan Mata Kuliah" />
+
+    <!-- Hasil Kelulusan -->
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
